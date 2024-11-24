@@ -1,0 +1,65 @@
+<%- include("./head.ejs")%>
+<section id=""  class="clients-say">
+    <div class="container">
+        <div class="section-header">
+            <h2>Register User</h2>
+        </div>
+
+        
+        <div class="container mt-20">
+            
+            <form action="signup" method="post">
+                
+                
+                <div class="row form-group">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
+                        <label  for="">User's name</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input class="form-control" name="name" type="text">
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+
+
+                <div class="row form-group">   
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
+                        <label for="">User name<label>
+                    </div>
+                    <div class="col-md-4">
+                        <input class="form-control" name="username" type="text">
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+
+                <div class="row form-group">   
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
+                        <label for="">Password<label>
+                    </div>
+                    <div class="col-md-4">
+                        <input class="form-control" name="password" type="password">
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+
+                
+
+ 
+                <div class="col-sm-5"></div>
+                <div class="col-sm-2">
+                    <button class="btn btn-style">Register</button>
+                </div>
+                <div class="col-sm-5"></div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<%- include("./footer.ejs")%>

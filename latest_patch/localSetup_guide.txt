@@ -1,0 +1,23 @@
+Rate & Review (JS Stack & MySQL)
+Created By: Aashish Khandelwal
+Contact No.: 9691536456, 9406600788
+Email: ashish.khandelwal201@gmail.com
+To setup this Rate and review app in local follow the steps mentioned below - 
+
+1) Take a clone of the code from my github url with command - git clone https://github.com/ashishkhandelwal201/graffersid
+2) Install the required packages with the help of package.json with command - npm install
+3) Create a blank database in local mysql with name "graffersid".
+4) Download the exported mongodb Database which is attached with the mail also availble in folder and run command - mongorestore --db "graffersid"  /path/to/downloaded/file.
+5) Make the changes in config > database.js according to your local mongodb username and password or if using .env, so make desired changes there
+6) Run the project with command - node app.js
+7) Access it on http://localhost:4004 port.
+
+To access the user route -
+username - user
+password - user
+
+I have also attched the .env file and exported DB.
+If you find any diffculty in regards with seeting up the project in local, Please let me know
+
+Call - 9691536456
+Whats App - 9406600788 
